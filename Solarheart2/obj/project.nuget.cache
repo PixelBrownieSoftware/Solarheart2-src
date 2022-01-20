@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ord4PPzcwFTZwVB0XbAMSVPCM3p7EiDM1tnB/gPWk04tM4HXoIJct6qeYiZhq3X1636jFUwfE31X21E8brBJTg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hamza\\Own Games\\Custom\\C#\\Solarheart2\\Solarheart2\\Solarheart2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\hamza\\.nuget\\packages\\monogame.extended\\3.8.0\\monogame.extended.3.8.0.nupkg.sha512",
+    "C:\\Users\\hamza\\.nuget\\packages\\monogame.extended.graphics\\3.8.0\\monogame.extended.graphics.3.8.0.nupkg.sha512",
+    "C:\\Users\\hamza\\.nuget\\packages\\monogame.extended.tiled\\3.8.0\\monogame.extended.tiled.3.8.0.nupkg.sha512",
+    "C:\\Users\\hamza\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\hamza\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
