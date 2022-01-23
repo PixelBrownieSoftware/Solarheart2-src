@@ -1,0 +1,47 @@
+﻿CODE FRAGMENTS/GARBAGE/RUBBISH FROM THE ORIGNAL SOLARHEART 
+
+
+//Archived on 21/01/2022
+//For some reason I used this function to make the font texture.
+//Obselete because there is a whole function which does this automatically.
+//Probably leftovers from Armstrong.
+
+        public void CreateSpriteSheets()
+        {
+            anim_size_offset aso = new anim_size_offset();
+
+            aso = new anim_size_offset();
+            aso.Add(new Rectangle(new Point(0, 0), new Point(10, 10)));
+            textures.Add("font", new Tuple<Texture2D, anim_size_offset>(Content.Load<Texture2D>("font"), aso));
+        }
+        
+//Meant for creating the default font in SH1, obselete because Solarheart2 does this automatically.
+        public void AddFont()
+        {
+            Vector2 fontsize = new Vector2(10, 10);
+            Vector2 fontglyph = new Vector2(12, 7);
+            List<char> characters = new List<char>();
+
+            string fontstr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789: .0><?,!-()+[]=_#/" +
+                " " + ";%*|^abcdefghijklmnopqrstuvwxyz";
+            for (int i = 0; i < fontstr.Length; i++)
+            {
+                characters.Add(fontstr[i]);
+                char c = fontstr[i];
+            }
+            font = new s_font(fontsize, fontglyph, characters, textures["font"].Item1);
+        }
+//Ditto
+        public s_font AddFont(Vector2 fontsize, Vector2 fontglyph)
+        {
+            List<char> characters = new List<char>();
+
+            string fontstr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789: .0><?,!-()+[]=_#/" +
+                " " + ";%*|^abcdefghijklmnopqrstuvwxyz";
+            for (int i = 0; i < fontstr.Length; i++)
+            {
+                characters.Add(fontstr[i]);
+                char c = fontstr[i];
+            }
+            return new s_font(fontsize, fontglyph, characters, textures["font"].Item1);
+        }
